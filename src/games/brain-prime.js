@@ -10,7 +10,7 @@ const isPrime = (number) => {
 };
 
 const startPrimeGame = () => {
-  const number = getRandomInt(0, 100);
+  const number = getRandomInt(2, 100);
   const rightAnswer = isPrime(number) ? 'yes' : 'no';
 
   return [number, rightAnswer];
