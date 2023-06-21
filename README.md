@@ -7,15 +7,15 @@
 
 
 ## Installation
-Clone this repo or download it with pip.
+Clone this repo or download it with pip. <br />
 Install package and dependencies.
 
 
 ## Games
 
 ### Even game
-Parity Check game.
-Given a number, you must enter "yes" if the number is even and "no" if it's not.
+Parity Check game. <br />
+Given a number, you must enter "yes" if the number is even and "no" if it's not. <br />
 Use command below to start Even game:
 ```ch
 brain-even
