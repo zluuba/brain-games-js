@@ -19,7 +19,7 @@ const getOperatorAndRightAnswer = (num1, num2) => {
   return [operatorSign, rightAnswer];
 };
 
-const startCalcGame = () => {
+const calcGame = () => {
   const num1 = getRandomInt(0, 25);
   const num2 = getRandomInt(0, 25);
   const [operator, rightAnswer] = getOperatorAndRightAnswer(num1, num2);
@@ -28,4 +28,4 @@ const startCalcGame = () => {
   return [question, rightAnswer.toString()];
 };
 
-export default startCalcGame;
+export default calcGame;

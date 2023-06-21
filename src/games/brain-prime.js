@@ -9,11 +9,11 @@ const isPrime = (number) => {
   return true;
 };
 
-const startPrimeGame = () => {
+const primeGame = () => {
   const number = getRandomInt(2, 100);
   const rightAnswer = isPrime(number) ? 'yes' : 'no';
 
   return [number, rightAnswer];
 };
 
-export default startPrimeGame;
+export default primeGame;

@@ -15,7 +15,7 @@ const getProgression = () => {
   return [progression, progressionLength];
 };
 
-const startProgressionGame = () => {
+const progressionGame = () => {
   const [progression, progressionLength] = getProgression();
   const hideCharIndex = getRandomInt(0, progressionLength - 1);
   const rightAnswer = progression[hideCharIndex].toString();
@@ -25,4 +25,4 @@ const startProgressionGame = () => {
   return [question, rightAnswer];
 };
 
-export default startProgressionGame;
+export default progressionGame;
