@@ -1,4 +1,4 @@
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min) + min);
+import getRandomInt from '../common.js';
 
 const isPrime = (number) => {
   for (let divider = 2; divider < Math.ceil(number / 2); divider += 1) {

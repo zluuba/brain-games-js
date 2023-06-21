@@ -1,7 +1,4 @@
-const getRandomInt = () => {
-  const maxNumber = 100;
-  return Math.floor(Math.random() * maxNumber);
-};
+import getRandomInt from '../common.js';
 
 const getGcd = (num1, num2) => {
   if (!num2) {
@@ -11,8 +8,8 @@ const getGcd = (num1, num2) => {
 };
 
 const startGcdGame = () => {
-  const num1 = getRandomInt();
-  const num2 = getRandomInt();
+  const num1 = getRandomInt(0, 100);
+  const num2 = getRandomInt(0, 100);
   const question = `${num1} ${num2}`;
   const rightAnswer = getGcd(num1, num2).toString();
   return [question, rightAnswer];

@@ -1,4 +1,4 @@
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min) + min);
+import getRandomInt from '../common.js';
 
 const getProgression = () => {
   const progressionLength = getRandomInt(5, 15);
