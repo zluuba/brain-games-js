@@ -13,14 +13,14 @@ const startEvenGame = (name, rule) => {
 
   for (let i = 0; i < rounds; i += 1) {
     const currNum = getRandomInt();
-    const correctAnswer = currNum % 2 === 0 ? 'yes' : 'no';
+    const rightAnswer = currNum % 2 === 0 ? 'yes' : 'no';
     const userAnswer = readlineSync.question(`Question: ${currNum} `);
     console.log(`Your answer: ${userAnswer}`);
 
-    if (correctAnswer === userAnswer) {
+    if (rightAnswer === userAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
       return false;
     }
