@@ -21,5 +21,11 @@ Use command below to start Even game:
 brain-even
 ```
 
-
+### Calc game
+Calculator game. <br />
+Given a mathematical expression, you need to calculate it and enter the result. <br />
+Use command below to start Calc game:
+```ch
+brain-calc
+```
 
