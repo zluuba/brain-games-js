@@ -36,3 +36,10 @@ Use command below to start Gcd game:
 ```ch
 brain-gcd
 ```
+
+### Progression game
+Arithmetic Progression game. <br />
+Given an arithmetic sequence in which one number is hidden, you must enter the missing number. <br />
+```ch
+brain-progression
+```
