@@ -7,14 +7,17 @@
 
 
 ## Installation
-Clone this repo or download it with pip. <br />
+Clone this repo or download it with pip:
 ```ch
-some commands
+git clone https://github.com/zluuba/brain-games-js.git
+```
+```ch
+pip install --user git+https://github.com/zluuba/brain-games-js.git
 ```
 
 Install package and dependencies:
 ```ch
-some commands
+make install
 ```
 
 
