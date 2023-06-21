@@ -1,6 +1,4 @@
-const getRandomInt = (min, max) => {
-  return Math.floor(Math.random() * (max - min) + min);
-};
+const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
 const getProgression = () => {
   const progressionLength = getRandomInt(5, 15);
@@ -12,7 +10,7 @@ const getProgression = () => {
   while (progression.length <= progressionLength) {
     progression.push(currNumber);
     currNumber += step;
-  };
+  }
 
   return [progression, progressionLength];
 };
@@ -27,4 +25,4 @@ const startProgressionGame = () => {
   return [question, rightAnswer];
 };
 
-export { startProgressionGame };
+export default startProgressionGame;

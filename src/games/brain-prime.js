@@ -1,11 +1,9 @@
-const getRandomInt = (min, max) => {
-  return Math.floor(Math.random() * (max - min) + min);
-};
+const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
 const isPrime = (number) => {
   for (let divider = 2; divider < Math.ceil(number / 2); divider += 1) {
     if (number % divider === 0) {
-        return false;
+      return false;
     }
   }
   return true;
@@ -18,4 +16,4 @@ const startPrimeGame = () => {
   return [number, rightAnswer];
 };
 
-export { startPrimeGame };
+export default startPrimeGame;

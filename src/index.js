@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import greetUser from '../src/cli.js';
+import greetUser from './cli.js';
 
 const rounds = 3;
 
@@ -23,6 +23,6 @@ const gameCore = (game, rule) => {
 
   console.log(`Congratulations, ${name}!`);
   return true;
-}
+};
 
 export default gameCore;

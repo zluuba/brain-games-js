@@ -4,13 +4,10 @@ const getRandomInt = () => {
 };
 
 const getGcd = (num1, num2) => {
-  if (num1 < num2) {
-    [num1, num2] = [num2, num1];
+  if (!num2) {
+    return num1;
   }
-  while (num2 !== 0) {
-    [num1, num2] = [num2, num1 % num2];
-  }
-  return num1;
+  return getGcd(num2, num1 % num2);
 };
 
 const startGcdGame = () => {
@@ -21,4 +18,4 @@ const startGcdGame = () => {
   return [question, rightAnswer];
 };
 
-export { startGcdGame };
+export default startGcdGame;

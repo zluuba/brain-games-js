@@ -1,7 +1,7 @@
 const getRandomInt = () => {
-    const maxNumber = 100;
-    return Math.floor(Math.random() * maxNumber);
-  };
+  const maxNumber = 100;
+  return Math.floor(Math.random() * maxNumber);
+};
 
 const startEvenGame = () => {
   const currNum = getRandomInt();
@@ -10,4 +10,4 @@ const startEvenGame = () => {
   return [currNum, rightAnswer];
 };
 
-export { startEvenGame };
+export default startEvenGame;
