@@ -8,12 +8,19 @@
 
 ## Installation
 Clone this repo or download it with pip. <br />
-Install package and dependencies.
+```ch
+some commands
+```
+
+Install package and dependencies:
+```ch
+some commands
+```
 
 
 ## Games
 
-### Even game
+#### Even game
 Parity Check game. <br />
 Given a number, you must enter "yes" if the number is even and "no" if it's not. <br />
 Use command below to start Even game:
@@ -21,7 +28,7 @@ Use command below to start Even game:
 brain-even
 ```
 
-### Calc game
+#### Calc game
 Calculator game. <br />
 Given a mathematical expression, you need to calculate it and enter the result. <br />
 Use command below to start Calc game:
@@ -29,7 +36,7 @@ Use command below to start Calc game:
 brain-calc
 ```
 
-### GCD game
+#### GCD game
 The Greatest Common Divisor game. <br />
 Two numbers are given, you need find the greatest common divisor and enter the result. <br />
 Use command below to start Gcd game:
@@ -37,9 +44,16 @@ Use command below to start Gcd game:
 brain-gcd
 ```
 
-### Progression game
+#### Progression game
 Arithmetic Progression game. <br />
 Given an arithmetic sequence in which one number is hidden, you must enter the missing number. <br />
 ```ch
 brain-progression
+```
+
+#### Prime game
+Prime Numbers game. <br />
+Given a number, you must enter "yes" if the number is prime and "no" if it's not. <br />
+```ch
+brain-prime
 ```
