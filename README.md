@@ -29,3 +29,10 @@ Use command below to start Calc game:
 brain-calc
 ```
 
+### GCD game
+The Greatest Common Divisor game. <br />
+Two numbers are given, you need find the greatest common divisor and enter the result. <br />
+Use command below to start Gcd game:
+```ch
+brain-gcd
+```
