@@ -4,7 +4,7 @@ import greetUser from './cli.js';
 
 const rounds = 3;
 
-const startGame = (game, rule) => {
+const core = (game, rule) => {
   const name = greetUser();
   console.log(rule);
 
@@ -25,4 +25,4 @@ const startGame = (game, rule) => {
   return true;
 };
 
-export default startGame;
+export default core;

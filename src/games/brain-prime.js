@@ -1,4 +1,7 @@
 import getRandomInt from '../common.js';
+import core from '../index.js';
+
+const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
   for (let divider = 2; divider < Math.ceil(number / 2); divider += 1) {
@@ -16,4 +19,4 @@ const primeGame = () => {
   return [number, rightAnswer];
 };
 
-export default primeGame;
+export default () => core(primeGame, rule);

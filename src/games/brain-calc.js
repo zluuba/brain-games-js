@@ -1,4 +1,7 @@
 import getRandomInt from '../common.js';
+import core from '../index.js';
+
+const rule = 'What is the result of the expression?';
 
 const getOperatorAndRightAnswer = (num1, num2) => {
   const operations = [{
@@ -28,4 +31,4 @@ const calcGame = () => {
   return [question, rightAnswer.toString()];
 };
 
-export default calcGame;
+export default () => core(calcGame, rule);

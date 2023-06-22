@@ -1,4 +1,7 @@
 import getRandomInt from '../common.js';
+import core from '../index.js';
+
+const rule = 'What number is missing in the progression?';
 
 const getProgression = () => {
   const progressionLength = getRandomInt(5, 15);
@@ -25,4 +28,4 @@ const progressionGame = () => {
   return [question, rightAnswer];
 };
 
-export default progressionGame;
+export default () => core(progressionGame, rule);

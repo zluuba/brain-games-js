@@ -1,4 +1,7 @@
 import getRandomInt from '../common.js';
+import core from '../index.js';
+
+const rule = 'Find the greatest common divisor of given numbers.';
 
 const getGcd = (num1, num2) => {
   if (!num2) {
@@ -16,4 +19,4 @@ const gcdGame = () => {
   return [question, rightAnswer];
 };
 
-export default gcdGame;
+export default () => core(gcdGame, rule);
